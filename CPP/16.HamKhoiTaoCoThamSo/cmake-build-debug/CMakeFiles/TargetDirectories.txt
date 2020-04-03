@@ -1,0 +1,3 @@
+/home/sondh/CodeC/CPP/16.HamKhoiTaoCoThamSo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sondh/CodeC/CPP/16.HamKhoiTaoCoThamSo/cmake-build-debug/CMakeFiles/16_HamKhoiTaoCoThamSo.dir
+/home/sondh/CodeC/CPP/16.HamKhoiTaoCoThamSo/cmake-build-debug/CMakeFiles/edit_cache.dir

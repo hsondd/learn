@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sondh/CodeC/CPP/12.Chiafile/HocSinh.cpp
+HocSinh.h
+/home/sondh/CodeC/CPP/12.Chiafile/HocSinh.h
+
+/home/sondh/CodeC/CPP/12.Chiafile/HocSinh.h
+iostream
+-
+string
+-
+
+/home/sondh/CodeC/CPP/12.Chiafile/main.cpp
+HocSinh.h
+/home/sondh/CodeC/CPP/12.Chiafile/HocSinh.h
+

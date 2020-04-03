@@ -1,0 +1,3 @@
+/home/sondh/CodeC/CPP/22.StaticDataMem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sondh/CodeC/CPP/22.StaticDataMem/cmake-build-debug/CMakeFiles/22_StaticDataMem.dir
+/home/sondh/CodeC/CPP/22.StaticDataMem/cmake-build-debug/CMakeFiles/edit_cache.dir

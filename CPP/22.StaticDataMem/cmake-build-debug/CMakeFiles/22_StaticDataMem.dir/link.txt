@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/22_StaticDataMem.dir/main.cpp.o  -o 22_StaticDataMem 
