@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sondh/CodeC/CPP/24.BaiTapPhanSo/PhanSo.cpp
+PhanSo.h
+/home/sondh/CodeC/CPP/24.BaiTapPhanSo/PhanSo.h
+
+/home/sondh/CodeC/CPP/24.BaiTapPhanSo/PhanSo.h
+iostream
+-
+
+/home/sondh/CodeC/CPP/24.BaiTapPhanSo/main.cpp
+iostream
+-
+PhanSo.h
+/home/sondh/CodeC/CPP/24.BaiTapPhanSo/PhanSo.h
+

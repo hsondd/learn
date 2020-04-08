@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/24_BaiTapPhanSo.dir/main.cpp.o CMakeFiles/24_BaiTapPhanSo.dir/PhanSo.cpp.o  -o 24_BaiTapPhanSo 

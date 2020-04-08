@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/27_FriendClass.dir/main.cpp.o  -o 27_FriendClass 

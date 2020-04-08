@@ -1,0 +1,3 @@
+/home/sondh/CodeC/LearnCPP/27.FriendClass/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sondh/CodeC/LearnCPP/27.FriendClass/cmake-build-debug/CMakeFiles/27_FriendClass.dir
+/home/sondh/CodeC/LearnCPP/27.FriendClass/cmake-build-debug/CMakeFiles/edit_cache.dir
