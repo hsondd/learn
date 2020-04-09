@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sondh/CodeC/LearnCPP/6.KeThua/LuongNhanVien/NVQuanLy.h
+NhanVien.h
+-
+
+/home/sondh/CodeC/LearnCPP/6.KeThua/LuongNhanVien/NVSanXuat.h
+NhanVien.h
+/home/sondh/CodeC/LearnCPP/6.KeThua/LuongNhanVien/NhanVien.h
+
+/home/sondh/CodeC/LearnCPP/6.KeThua/LuongNhanVien/NVVanPhong.h
+NhanVien.h
+/home/sondh/CodeC/LearnCPP/6.KeThua/LuongNhanVien/NhanVien.h
+
+/home/sondh/CodeC/LearnCPP/6.KeThua/LuongNhanVien/NhanVien.h
+iostream
+-
+string
+-
+
+/home/sondh/CodeC/LearnCPP/6.KeThua/LuongNhanVien/QuanLy.h
+NhanVien.h
+/home/sondh/CodeC/LearnCPP/6.KeThua/LuongNhanVien/NhanVien.h
+NVQuanLy.h
+/home/sondh/CodeC/LearnCPP/6.KeThua/LuongNhanVien/NVQuanLy.h
+NVVanPhong.h
+/home/sondh/CodeC/LearnCPP/6.KeThua/LuongNhanVien/NVVanPhong.h
+NVSanXuat.h
+/home/sondh/CodeC/LearnCPP/6.KeThua/LuongNhanVien/NVSanXuat.h
+vector
+-
+
+/home/sondh/CodeC/LearnCPP/6.KeThua/LuongNhanVien/main.cpp
+QuanLy.h
+/home/sondh/CodeC/LearnCPP/6.KeThua/LuongNhanVien/QuanLy.h
+

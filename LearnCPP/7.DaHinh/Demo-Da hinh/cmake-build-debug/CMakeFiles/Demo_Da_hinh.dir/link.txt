@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Demo_Da_hinh.dir/main.cpp.o CMakeFiles/Demo_Da_hinh.dir/NhanVien.cpp.o CMakeFiles/Demo_Da_hinh.dir/NVQuanLy.cpp.o CMakeFiles/Demo_Da_hinh.dir/NVSanXuat.cpp.o CMakeFiles/Demo_Da_hinh.dir/NVVanPhong.cpp.o CMakeFiles/Demo_Da_hinh.dir/QuanLy.cpp.o  -o Demo_Da_hinh 
