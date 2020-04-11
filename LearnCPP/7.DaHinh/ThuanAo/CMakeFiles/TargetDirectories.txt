@@ -1,0 +1,3 @@
+/home/sondh/CodeC/LearnCPP/7.DaHinh/ThuanAo/CMakeFiles/rebuild_cache.dir
+/home/sondh/CodeC/LearnCPP/7.DaHinh/ThuanAo/CMakeFiles/edit_cache.dir
+/home/sondh/CodeC/LearnCPP/7.DaHinh/ThuanAo/CMakeFiles/ThuanAo.dir

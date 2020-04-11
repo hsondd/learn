@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sondh/CodeC/LearnCPP/7.DaHinh/Demo-Da hinh/NVQuanLy.h
+NhanVien.h
+-
+
+/home/sondh/CodeC/LearnCPP/7.DaHinh/Demo-Da hinh/NVSanXuat.h
+NhanVien.h
+/home/sondh/CodeC/LearnCPP/7.DaHinh/Demo-Da hinh/NhanVien.h
+
+/home/sondh/CodeC/LearnCPP/7.DaHinh/Demo-Da hinh/NVVanPhong.h
+NhanVien.h
+/home/sondh/CodeC/LearnCPP/7.DaHinh/Demo-Da hinh/NhanVien.h
+
+/home/sondh/CodeC/LearnCPP/7.DaHinh/Demo-Da hinh/NhanVien.h
+iostream
+-
+string
+-
+
+/home/sondh/CodeC/LearnCPP/7.DaHinh/Demo-Da hinh/main.cpp
+NhanVien.h
+/home/sondh/CodeC/LearnCPP/7.DaHinh/Demo-Da hinh/NhanVien.h
+NVQuanLy.h
+/home/sondh/CodeC/LearnCPP/7.DaHinh/Demo-Da hinh/NVQuanLy.h
+NVSanXuat.h
+/home/sondh/CodeC/LearnCPP/7.DaHinh/Demo-Da hinh/NVSanXuat.h
+NVVanPhong.h
+/home/sondh/CodeC/LearnCPP/7.DaHinh/Demo-Da hinh/NVVanPhong.h
+vector
+-
+
