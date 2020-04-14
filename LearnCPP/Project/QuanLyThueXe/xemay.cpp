@@ -30,3 +30,8 @@ float XEMAY::TinhTienThueXe()
     }
     return s + ((SoGioThue - 1) * 100000);
 }
+
+int XEMAY::Getter_LoaiXe()
+{
+    return LoaiXe;
+}

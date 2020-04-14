@@ -27,6 +27,25 @@ void Xuat_Tat_Ca_Thong_Tin_Thue_Xe(XEDAP ds_xedap[], int n, XEMAY ds_xemay[], in
     }
 }
 
+float Tinh_Tong_Tien_Thue_Xe(XEDAP ds_xedap[], int n, XEMAY ds_xemay[], int m)
+{
+    float tong = 0;
+    // duyệt danh sách xe đạp
+    for (int i = 0; i < n; i++)
+    {
+        tong += ds_xedap[i].TinhTienThueXe();
+
+    }
+
+
+    // duyệt danh sách xe máy
+    for (int i = 0; i < m; i++)
+    {
+        tong += ds_xemay[i].TinhTienThueXe();
+    }
+    return tong;
+}
+
 void Menu(XEDAP ds_xedap[], int n, XEMAY ds_xemay[], int m)
 {
     int luachon;
@@ -87,39 +106,39 @@ void Menu(XEDAP ds_xedap[], int n, XEMAY ds_xemay[], int m)
             Xuat_Tat_Ca_Thong_Tin_Thue_Xe(ds_xedap, n, ds_xemay, m);
             cin.get();
         }
-//        else if (luachon == 3)
-//        {
-//            cout << "\n\n\t\tTONG TIEN THUE XE: " << (size_t)Tinh_Tong_Tien_Thue_Xe(ds_xedap, n, ds_xemay, m);
-//            system("pause");
-//        }
-//        else if (luachon == 4)
-//        {
-//            cout << "\n\n\t\t DANH SACH THUE XE DAP\n";
-//            // xuất danh sách xe đạp
-//            for (int i = 0; i < n; i++)
-//            {
-//                cout << "\n\tTHONG TIN THUE XE DAP THU " << i + 1 << endl;
-//                ds_xedap[i].XuatThongTin();
-//                cout << "\nTien thue: " << (size_t)ds_xedap[i].TinhTienThueXe();
-//            }
-//            system("pause");
-//        }
-//        else if (luachon == 5)
-//        {
-//            int dem = 0;
-//            cout << "\n\n\t\t DANH SACH THUE XE MAY LOAI 250 PHAN KHOI\n";
-//            // duyệt danh sách xe máy
-//            for (int i = 0; i < m; i++)
-//            {
-//                if (ds_xemay[i].Getter_LoaiXe() == 250)
-//                {
-//                    cout << "\n\tTHONG TIN THUE MAY THU " << ++dem << endl;
-//                    ds_xemay[i].XuatThongTin();
-//                    cout << "\nTien thue: " << (size_t)ds_xemay[i].TinhTienThueXe();
-//                }
-//            }
-//            system("pause");
-//        }
+        else if (luachon == 3)
+        {
+            cout << "\n\n\t\tTONG TIEN THUE XE: " << (size_t)Tinh_Tong_Tien_Thue_Xe(ds_xedap, n, ds_xemay, m);
+            system("pause");
+        }
+        else if (luachon == 4)
+        {
+            cout << "\n\n\t\t DANH SACH THUE XE DAP\n";
+            // xuất danh sách xe đạp
+            for (int i = 0; i < n; i++)
+            {
+                cout << "\n\tTHONG TIN THUE XE DAP THU " << i + 1 << endl;
+                ds_xedap[i].XuatThongTin();
+                cout << "\nTien thue: " << (size_t)ds_xedap[i].TinhTienThueXe();
+            }
+            system("pause");
+        }
+        else if (luachon == 5)
+        {
+            int dem = 0;
+            cout << "\n\n\t\t DANH SACH THUE XE MAY LOAI 250 PHAN KHOI\n";
+            // duyệt danh sách xe máy
+            for (int i = 0; i < m; i++)
+            {
+                if (ds_xemay[i].Getter_LoaiXe() == 250)
+                {
+                    cout << "\n\tTHONG TIN THUE MAY THU " << ++dem << endl;
+                    ds_xemay[i].XuatThongTin();
+                    cout << "\nTien thue: " << (size_t)ds_xemay[i].TinhTienThueXe();
+                }
+            }
+            system("pause");
+        }
         else
         {
             break;

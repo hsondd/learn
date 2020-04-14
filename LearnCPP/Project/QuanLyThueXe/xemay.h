@@ -10,6 +10,7 @@ public:
     void NhapThongTin();
     void XuatThongTin();
     float TinhTienThueXe();
+    int Getter_LoaiXe();
 };
 
 #endif // XEMAY_H
