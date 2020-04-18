@@ -1,0 +1,13 @@
+#ifndef NHANVIENTHIETKE_H
+#define NHANVIENTHIETKE_H
+#include "nhanvien.h"
+
+class NhanVienThietKe
+{
+    float tienThuong;
+public:
+    virtual void Doc_file(ifstream &);
+    NhanVienThietKe();
+};
+
+#endif // NHANVIENTHIETKE_H

@@ -20,6 +20,7 @@ void ThuVien::Input()
             x = new DocGiaTreEm;
             cout << "\n\n\t\t Nhap thong tin doc gia\n";
             x->Input();
+            x->Setter_KT(true);
             ds_docgia.push_back(x);
 
         }
@@ -28,6 +29,7 @@ void ThuVien::Input()
             x = new DocGiaNguoiLon;
             cout << "\n\n\t\t Nhap thong tin doc gia\n";
             x->Input();
+            x->Setter_KT(false);
             ds_docgia.push_back(x);
         }
         else if (luachon == 0)

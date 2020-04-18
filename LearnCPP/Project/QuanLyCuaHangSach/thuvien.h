@@ -8,8 +8,7 @@
 
 class ThuVien
 {
-    vector<DocGiaTreEm> ds_docgiatreem;
-    vector<DocGiaNguoiLon> ds_docgianguoilon;
+    vector<DocGia *> ds_docgia;
 
 public:
     void Input();

@@ -1,0 +1,31 @@
+#include "nhanvien.h"
+
+void NhanVien::Doc_File(ifstream &filein)
+{
+    getline(filein,manhanvien,',');
+    filein.seekg(1, 1);//dich con tron chi vi cua file sang ben phai 1 byte
+    getline(filein, tennhanvien, ',');
+    filein.seekg(1,1);
+    int ngay;
+    filein >> ngay;
+    namsinh.Setter_Ngay(ngay);
+    filein.seekg(1,1);
+    int thang;
+    filein >> thang;
+    namsinh.Setter_Thang(thang);
+    filein.seekg(1,1);
+    int nam;
+    filein >> nam;
+    namsinh.Setter_Nam(nam);
+    filein.seekg(2,1);
+    getline(filein, diachi, ',');
+    filein >> hesoluong;
+    filein.seekg(1,1);
+    filein >> luongcoban;
+    filein.seekg(1,1);
+    
+}
+
+NhanVien::NhanVien()
+{
+}

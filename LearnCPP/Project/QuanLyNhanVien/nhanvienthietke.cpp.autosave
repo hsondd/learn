@@ -1,0 +1,10 @@
+#include "nhanvienthietke.h"
+
+void NhanVienThietKe::Doc_file(ifstream &filein)
+{
+    NhanVien::Doc_File(filein);
+}
+
+NhanVienThietKe::NhanVienThietKe()
+{
+}
