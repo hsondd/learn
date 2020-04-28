@@ -1,0 +1,52 @@
+Nhiệm vụ Thời gian Yêu cầu cần đạt được Tài liệu tham khảo Ghi chú
+1. Tìm hiểu kiến thức lập trình C cơ bản
+ 3 ngày
+ - Nắm rõ cấu trúc cơ bản của một chương trình C.
+ - Nắm rõ các kiểu dữ liệu trong C. 
+- Control flow (If else, switch-case, for, while …).
+ - Hàm trong C - Hiểu rõ mảng, con trỏ, mỗi quan hệ giữa mảng và con trỏ. 
+- Structure.
+ - Cấp phát động. 
+- Dùng được gcc để buil một chương trình C trên môi trường linux
+ C Programming Language, 2nd Edition 2nd Edition by Brian W. Kernighan (Author), Dennis M. Ritchie (Author) GCC: Tham khảo internet 
+
+2. Tìm hiểu các cấu trúc dữ liệu cơ bản
+ 1 ngày
+ - Nắm rõ các cấu trúc dữ liệu: danh sách liên kết, hàng đợi, stack, tree.
+ - Viết được chương trình cài đặt các kiểu dữ liệu trên. Tìm hiểu qua internet 
+3. Seminar 
+ - Seminar kiến thức lập trình C cơ bản (kiểu dữ liệu, control flow, mảng, con trỏ, structure, hàm, cấp phát động) và các cấu trúc dữ liệu cơ bản. Trình bài code demo chương trình cài đặt danh sách liên kết, hàng đợi, stack
+ 1.5 ngày bao gồm thời gian làm slide + seminar
+
+ 4 .Socket/UDP socket 
+2 ngày Hiểu các kiến thức: 
+- Socket là gì?
+ - Đặc điểm UDP socket. 
+- Hiểu rõ cách sử dụng các API của udp socket.
+ Viết được chương trình client- server sử dụng udp socket (client - server chat với nhau).
+ Chương 56 sách The Linux Programming Interface
+
+ 5. SCTP
+ 1 ngày 
+Tìm hiểu kiến thức cơ bản về SCTP, các tính năng nổi bật. So sánh SCTP với TCP và UDP 
+A Linux and UNIX System Programming Handbook,
+Section 2.5 https://www.ibm.com/developerworks/library/l-sctp/index.html 
+
+ 5 .Thread 
+ 1 ngày 
+- Thread là gì? So sánh thread với process. 
+- Nắm rõ các API cơ bản.
+- Viết chương trình sử dụng hai thread (không tính main thread, một thread có nhiệm vụ tăng một biến global, một thread có nhiệm vụ giảm một biến global). Chương 29 sách The Linux Programming Interface - A Linux and UNIX System Programming Handbook 
+
+6 .Đồng bộ trong thread
+ 1 ngày
+ - Nắm rõ cách dùng mutex và condition variable. Code demo cho từng trường hợp. Chương 30 sách The Linux Programming Interface - A Linux and UNIX System Programming Handbook
+
+ 7. Seminar 2 ngày - Seminar các kiến thức đã học được về socket, thread, đồng bộ trong thread. - Yêu cầu có code demo cho từng phần 2 ngày bao gồm thời gian làm slide + code demo + seminar
+
+ 8. Các kiến thức khác File I/O, multi plexing I/O, I/O buffering, block - non blocking … các bạn tự tìm hiểu trong quá trình làm việc.
+
+
+5g
+1. http://www.sharetechnote.com/html/5G/5G_RAN_Architecture.html?fbclid=IwAR3wX_Ra_nynuLWhZpJKUewDyEnNsC64jiSWKrd_2V1qyJWjIth4hkq4V2U
+2. sach. 6.1
