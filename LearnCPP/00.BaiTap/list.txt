@@ -1,0 +1,6 @@
+1. //Dem so phan tu phan biet trong mang 1 chieu
+2. quick sort
+3. selection sort
+4. insertion sort
+5.Bubble sort
+6. binary search
