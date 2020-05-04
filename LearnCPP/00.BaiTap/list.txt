@@ -4,3 +4,9 @@
 4. insertion sort
 5.Bubble sort
 6. binary search
+7. Thêm/ xóa phần tử trong mảng 1 chiều
+8. tim ucln
+9. kiem tra so doi xung
+10. chuyen thap phan sang nhi phaan
+11. KIem tra so chinh phuong
+12.Tinh toan voi 2 so lon
