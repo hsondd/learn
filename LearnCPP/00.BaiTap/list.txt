@@ -16,3 +16,4 @@
 16. Dem so luong ky tu trong chuoi
 17. chuyen doi thoi gian
 18. Tim kiem 1 chuoi trong chuoi
+19. Dao nguoc 1 chuoi
