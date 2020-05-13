@@ -26,6 +26,7 @@ void insertTail (int value)
     }
     while (temp->next != NULL) temp = temp->next;
     temp->next = new;
+    free(temp);
 
 }
 
