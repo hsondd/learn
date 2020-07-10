@@ -1,0 +1,55 @@
+# Project: test_lg
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = practice6.o practice1.o practice2.o practice3.o practice4.o practice5.o practice7.o practice8.o practice9.o practice10.o
+LINKOBJ  = practice6.o practice1.o practice2.o practice3.o practice4.o practice5.o practice7.o practice8.o practice9.o practice10.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = test_lg.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+practice6.o: practice6.cpp
+	$(CPP) -c practice6.cpp -o practice6.o $(CXXFLAGS)
+
+practice1.o: practice1.cpp
+	$(CPP) -c practice1.cpp -o practice1.o $(CXXFLAGS)
+
+practice2.o: practice2.cpp
+	$(CPP) -c practice2.cpp -o practice2.o $(CXXFLAGS)
+
+practice3.o: practice3.cpp
+	$(CPP) -c practice3.cpp -o practice3.o $(CXXFLAGS)
+
+practice4.o: practice4.cpp
+	$(CPP) -c practice4.cpp -o practice4.o $(CXXFLAGS)
+
+practice5.o: practice5.cpp
+	$(CPP) -c practice5.cpp -o practice5.o $(CXXFLAGS)
+
+practice7.o: practice7.cpp
+	$(CPP) -c practice7.cpp -o practice7.o $(CXXFLAGS)
+
+practice8.o: practice8.cpp
+	$(CPP) -c practice8.cpp -o practice8.o $(CXXFLAGS)
+
+practice9.o: practice9.cpp
+	$(CPP) -c practice9.cpp -o practice9.o $(CXXFLAGS)
+
+practice10.o: practice10.cpp
+	$(CPP) -c practice10.cpp -o practice10.o $(CXXFLAGS)
