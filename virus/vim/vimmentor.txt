@@ -1,0 +1,235 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.1 185428  4724 ?        Ss   14:05   0:07 /sbin/init splash
+root         2  0.0  0.0      0     0 ?        S    14:05   0:00 [kthreadd]
+root         4  0.0  0.0      0     0 ?        I<   14:05   0:00 [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        I<   14:05   0:00 [mm_percpu_wq]
+root         7  0.0  0.0      0     0 ?        S    14:05   0:00 [ksoftirqd/0]
+root         8  0.1  0.0      0     0 ?        I    14:05   0:40 [rcu_sched]
+root         9  0.0  0.0      0     0 ?        I    14:05   0:00 [rcu_bh]
+root        10  0.0  0.0      0     0 ?        S    14:05   0:00 [migration/0]
+root        11  0.0  0.0      0     0 ?        S    14:05   0:00 [watchdog/0]
+root        12  0.0  0.0      0     0 ?        S    14:05   0:00 [cpuhp/0]
+root        13  0.0  0.0      0     0 ?        S    14:05   0:00 [cpuhp/1]
+root        14  0.0  0.0      0     0 ?        S    14:05   0:00 [watchdog/1]
+root        15  0.0  0.0      0     0 ?        S    14:05   0:00 [migration/1]
+root        16  0.0  0.0      0     0 ?        S    14:05   0:00 [ksoftirqd/1]
+root        18  0.0  0.0      0     0 ?        I<   14:05   0:00 [kworker/1:0H]
+root        19  0.0  0.0      0     0 ?        S    14:05   0:00 [cpuhp/2]
+root        20  0.0  0.0      0     0 ?        S    14:05   0:00 [watchdog/2]
+root        21  0.0  0.0      0     0 ?        S    14:05   0:00 [migration/2]
+root        22  0.0  0.0      0     0 ?        S    14:05   0:00 [ksoftirqd/2]
+root        24  0.0  0.0      0     0 ?        I<   14:05   0:00 [kworker/2:0H]
+root        25  0.0  0.0      0     0 ?        S    14:05   0:00 [cpuhp/3]
+root        26  0.0  0.0      0     0 ?        S    14:05   0:00 [watchdog/3]
+root        27  0.0  0.0      0     0 ?        S    14:05   0:00 [migration/3]
+root        28  0.0  0.0      0     0 ?        S    14:05   0:00 [ksoftirqd/3]
+root        30  0.0  0.0      0     0 ?        I<   14:05   0:00 [kworker/3:0H]
+root        31  0.0  0.0      0     0 ?        S    14:05   0:00 [kdevtmpfs]
+root        32  0.0  0.0      0     0 ?        I<   14:05   0:00 [netns]
+root        33  0.0  0.0      0     0 ?        S    14:05   0:00 [rcu_tasks_kthre]
+root        34  0.0  0.0      0     0 ?        S    14:05   0:00 [kauditd]
+root        38  0.0  0.0      0     0 ?        S    14:05   0:00 [khungtaskd]
+root        39  0.0  0.0      0     0 ?        S    14:05   0:00 [oom_reaper]
+root        40  0.0  0.0      0     0 ?        I<   14:05   0:00 [writeback]
+root        41  0.0  0.0      0     0 ?        S    14:05   0:00 [kcompactd0]
+root        42  0.0  0.0      0     0 ?        SN   14:05   0:00 [ksmd]
+root        43  0.0  0.0      0     0 ?        SN   14:05   0:00 [khugepaged]
+root        44  0.0  0.0      0     0 ?        I<   14:05   0:00 [crypto]
+root        45  0.0  0.0      0     0 ?        I<   14:05   0:00 [kintegrityd]
+root        46  0.0  0.0      0     0 ?        I<   14:05   0:00 [kblockd]
+root        49  0.0  0.0      0     0 ?        I<   14:05   0:00 [ata_sff]
+root        52  0.0  0.0      0     0 ?        I<   14:05   0:00 [md]
+root        53  0.0  0.0      0     0 ?        I<   14:05   0:00 [edac-poller]
+root        54  0.0  0.0      0     0 ?        I<   14:05   0:00 [devfreq_wq]
+root        55  0.0  0.0      0     0 ?        I<   14:05   0:00 [watchdogd]
+root        58  0.0  0.0      0     0 ?        S    14:05   0:02 [kswapd0]
+root        59  0.0  0.0      0     0 ?        I<   14:05   0:01 [kworker/u9:0]
+root        60  0.0  0.0      0     0 ?        S    14:05   0:00 [ecryptfs-kthrea]
+root       102  0.0  0.0      0     0 ?        I<   14:05   0:00 [kthrotld]
+root       103  0.0  0.0      0     0 ?        I<   14:05   0:00 [acpi_thermal_pm]
+root       108  0.0  0.0      0     0 ?        I<   14:05   0:00 [ipv6_addrconf]
+root       117  0.0  0.0      0     0 ?        I<   14:05   0:00 [kstrp]
+root       134  0.0  0.0      0     0 ?        I<   14:05   0:00 [charger_manager]
+root       182  0.0  0.0      0     0 ?        S    14:05   0:00 [irq/30-DLL06B0:]
+root       183  0.0  0.0      0     0 ?        S    14:05   0:00 [scsi_eh_0]
+root       184  0.0  0.0      0     0 ?        I<   14:05   0:00 [scsi_tmf_0]
+root       185  0.0  0.0      0     0 ?        S    14:05   0:00 [scsi_eh_1]
+root       186  0.0  0.0      0     0 ?        I<   14:05   0:00 [scsi_tmf_1]
+root       187  0.0  0.0      0     0 ?        S    14:05   0:00 [scsi_eh_2]
+root       188  0.0  0.0      0     0 ?        I<   14:05   0:00 [scsi_tmf_2]
+root       189  0.0  0.0      0     0 ?        S    14:05   0:00 [scsi_eh_3]
+root       190  0.0  0.0      0     0 ?        I<   14:05   0:00 [scsi_tmf_3]
+root       196  0.0  0.0      0     0 ?        I<   14:05   0:00 [nvkm-disp]
+root       197  0.0  0.0      0     0 ?        S    14:05   0:14 [i915/signal:0]
+root       198  0.0  0.0      0     0 ?        S    14:05   0:00 [i915/signal:1]
+root       199  0.0  0.0      0     0 ?        S    14:05   0:00 [i915/signal:2]
+root       200  0.0  0.0      0     0 ?        S    14:05   0:00 [i915/signal:4]
+root       201  0.0  0.0      0     0 ?        I<   14:05   0:00 [rmi4-poller]
+root       202  0.0  0.0      0     0 ?        S    14:05   0:00 [irq/45-i2c_hid]
+root       204  0.0  0.0      0     0 ?        I<   14:05   0:00 [kworker/2:1H]
+root       205  0.0  0.0      0     0 ?        I<   14:05   0:00 [kworker/0:1H]
+root       206  0.0  0.0      0     0 ?        I<   14:05   0:00 [kworker/1:1H]
+root       207  0.0  0.0      0     0 ?        I<   14:05   0:00 [ttm_swap]
+root       231  0.0  0.0      0     0 ?        D    14:05   0:02 [jbd2/sda6-8]
+root       232  0.0  0.0      0     0 ?        I<   14:05   0:00 [ext4-rsv-conver]
+root       270  0.0  0.1  40720  5224 ?        Ss   14:05   0:00 /lib/systemd/systemd-journald
+root       285  0.0  0.0      0     0 ?        I<   14:05   0:00 [kworker/3:1H]
+root       304  0.0  0.0  45756  2712 ?        Ss   14:05   0:00 /lib/systemd/systemd-udevd
+root       316  0.0  0.0      0     0 ?        S<   14:05   0:00 [loop0]
+root       323  0.0  0.0      0     0 ?        S<   14:05   0:00 [loop1]
+root       324  0.0  0.0      0     0 ?        S<   14:05   0:00 [loop2]
+root       397  0.0  0.0      0     0 ?        I<   14:05   0:01 [kworker/u9:1]
+root       412  0.0  0.0      0     0 ?        I<   14:05   0:00 [cfg80211]
+root       425  0.2  0.0      0     0 ?        S    14:05   1:00 [irq/49-iwlwifi]
+root       625  3.9  0.2 110104  8620 ?        R    14:05  17:41 @sbin/plymouthd --mode=boot --pid-file=/run/plymouth/pid --attach-to-session
+root       727  0.0  0.0      0     0 ?        I<   14:05   0:00 [kmemstick]
+systemd+   764  0.0  0.0 102384  2260 ?        Ssl  14:05   0:00 /lib/systemd/systemd-timesyncd
+root       848  0.0  0.0   4396  1852 ?        Ss   14:05   0:00 /usr/sbin/acpid
+root       850  0.0  0.0  28636  2560 ?        Ss   14:05   0:00 /lib/systemd/systemd-logind
+message+   855  0.0  0.1  44372  4672 ?        Ss   14:05   0:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root       900  0.0  0.3 526908 12524 ?        Ssl  14:05   0:11 /usr/sbin/NetworkManager --no-daemon
+root       901  0.0  0.1 167964  6276 ?        Ssl  14:05   0:01 /usr/sbin/thermald --no-daemon --dbus-enable
+root       905  0.0  0.0  30536  2576 ?        Ss   14:05   0:00 /usr/sbin/cron -f
+root       908  0.0  0.1 288360  7340 ?        Ssl  14:05   0:00 /usr/lib/accountsservice/accounts-daemon
+root       916  0.0  0.0  32068  3488 ?        Ss   14:05   0:00 /usr/lib/bluetooth/bluetoothd
+avahi      918  0.0  0.0  44908  2824 ?        Ss   14:05   0:01 avahi-daemon: running [sondh-Inspiron-3558.local]
+root       921  0.0  0.1  94764  5732 ?        Ss   14:05   0:00 /usr/sbin/cupsd -l
+root       924  0.0  0.1 413644  6284 ?        Ssl  14:05   0:00 /usr/sbin/ModemManager
+syslog     925  0.0  0.0 256392  2412 ?        Ssl  14:05   0:00 /usr/sbin/rsyslogd -n
+root       927  0.0  0.1 479280  7516 ?        Ssl  14:05   0:02 /usr/lib/snapd/snapd
+root       960  0.0  0.1 287748  7020 ?        SLsl 14:05   0:00 /usr/sbin/lightdm
+root       969  0.0  0.2 294448  9128 ?        Ssl  14:05   0:00 /usr/lib/policykit-1/polkitd --no-debug
+avahi      970  0.0  0.0  44784    40 ?        S    14:05   0:00 avahi-daemon: chroot helper
+root       971  0.0  0.1 274816  7500 ?        Ssl  14:05   0:00 /usr/sbin/cups-browsed
+lp         979  0.0  0.1  81244  4580 ?        S    14:05   0:00 /usr/lib/cups/notifier/dbus dbus://
+lp         980  0.0  0.1  81244  4696 ?        S    14:05   0:00 /usr/lib/cups/notifier/dbus dbus://
+lp         981  0.0  0.1  81244  4744 ?        S    14:05   0:00 /usr/lib/cups/notifier/dbus dbus://
+root      1005  0.0  0.0  19576  2108 ?        Ss   14:05   0:01 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+root      1007  0.0  0.1 176148  6116 ?        Ssl  14:05   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root      1031  0.0  0.1  44120  5448 ?        Ss   14:05   0:01 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root      1037  4.9  2.2 550444 88516 tty7     Ssl+ 14:05  22:15 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root      1152  0.0  0.1 230304  5224 ?        Sl   14:05   0:00 lightdm --session-child 12 19
+rtkit     1215  0.0  0.0 183544  2616 ?        SNsl 14:05   0:00 /usr/lib/rtkit/rtkit-daemon
+root      1227  0.0  0.0      0     0 ?        S<   14:05   0:00 [krfcommd]
+whoopsie  1241  0.0  0.2 447744  9892 ?        Ssl  14:05   0:00 /usr/bin/whoopsie -f
+root      1244  0.0  0.0  12832   908 ?        Ss   14:05   0:00 /bin/plymouth --wait
+sondh     1272  0.0  0.0  45300  3044 ?        Ss   14:06   0:00 /lib/systemd/systemd --user
+sondh     1273  0.0  0.0 210972   204 ?        S    14:06   0:00 (sd-pam)
+sondh     1278  0.0  0.1 206828  5948 ?        Sl   14:06   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+sondh     1280  0.0  0.1  48004  4000 ?        Ss   14:06   0:00 /sbin/upstart --user
+sondh     1351  0.0  0.0  34388   100 ?        S    14:06   0:00 upstart-udev-bridge --daemon --user
+sondh     1359  0.0  0.0  43904  3740 ?        Ss   14:06   0:08 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-qQASrXBqPF
+sondh     1371  0.0  0.1  87876  5316 ?        Ss   14:06   0:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+sondh     1392  0.1  0.3 360688 12048 ?        Ssl  14:06   0:32 /usr/bin/ibus-daemon --daemonize --xim --address unix:tmpdir=/tmp/ibus
+sondh     1418  0.0  0.0  34432  1304 ?        S    14:06   0:01 upstart-dbus-bridge --daemon --session --user --bus-name session
+sondh     1420  0.0  0.0  34320   144 ?        S    14:06   0:01 upstart-dbus-bridge --daemon --system --user --bus-name system
+sondh     1424  0.0  0.0  42944  1348 ?        S    14:06   0:00 upstart-file-bridge --daemon --user
+sondh     1428  0.0  0.1 276044  5480 ?        Sl   14:06   0:00 /usr/lib/gvfs/gvfsd
+sondh     1433  0.0  0.1 417800  6056 ?        Sl   14:06   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+sondh     1436  0.0  0.1 276852  6956 ?        Sl   14:06   0:00 /usr/lib/ibus/ibus-dconf
+sondh     1437  0.0  0.7 481368 28212 ?        Sl   14:06   0:19 /usr/lib/ibus/ibus-ui-gtk3
+sondh     1439  0.0  0.4 429724 18700 ?        Sl   14:06   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+sondh     1474  0.0  0.6 526640 24940 ?        Ssl  14:06   0:03 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+sondh     1485  0.0  0.1 200980  6888 ?        Sl   14:06   0:02 /usr/lib/ibus/ibus-engine-simple
+sondh     1511  0.0  0.0 168064   376 ?        Ss   14:06   0:00 gpg-agent --homedir /home/sondh/.gnupg --use-standard-socket --daemon
+nobody    1517  0.0  0.0  54392  3416 ?        S    14:06   0:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --conf-file=/dev/null --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+sondh     1673  0.0  0.8 655692 31912 ?        Ssl  14:06   0:08 /usr/lib/x86_64-linux-gnu/hud/hud-service
+sondh     1675  0.0  0.7 1480724 29832 ?       Ssl  14:06   0:01 /usr/lib/unity-settings-daemon/unity-settings-daemon
+sondh     1683  0.0  0.1 346972  6768 ?        Ssl  14:06   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
+sondh     1685  0.0  0.3 640596 13476 ?        Ssl  14:06   0:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+sondh     1695  0.1  1.0 652932 41572 ?        Ssl  14:06   0:34 /usr/lib/x86_64-linux-gnu/unity/unity-panel-service
+sondh     1697  0.0  0.0  42896  3384 ?        S    14:06   0:01 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+sondh     1711  0.0  0.1 206864  6036 ?        Sl   14:06   0:06 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+sondh     1721  0.0  0.1 364900  7252 ?        Ssl  14:06   0:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+sondh     1722  0.0  0.1 343880  6428 ?        Ssl  14:06   0:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+sondh     1723  0.0  0.1 428484  7324 ?        Ssl  14:06   0:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+sondh     1731  0.0  0.2 1300004 9280 ?        Ssl  14:06   0:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+sondh     1732  0.0  1.2 606708 48328 ?        Ssl  14:06   0:07 /usr/lib/x86_64-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+sondh     1733  0.0  0.2 744644  9872 ?        Ssl  14:06   0:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+sondh     1735  0.0  0.5 549620 21156 ?        Ssl  14:06   0:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+sondh     1736  0.0  0.1 963236  7060 ?        Ssl  14:06   0:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+sondh     1757  0.0  0.2 403148 11568 ?        Ssl  14:06   0:02 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+sondh     1790  0.8  0.2 510568 10352 ?        S<l  14:06   3:54 /usr/bin/pulseaudio --start --log-target=syslog
+sondh     1793  0.0  0.4 1113348 15828 ?       Sl   14:06   0:00 /usr/lib/evolution/evolution-source-registry
+root      1794  0.0  0.2 348784  8584 ?        Ssl  14:06   0:01 /usr/lib/upower/upowerd
+sondh     1813  0.0  0.1 178760  4668 ?        Sl   14:06   0:00 /usr/lib/dconf/dconf-service
+sondh     1848  3.4  2.2 1231096 90408 ?       Ssl  14:06  15:19 compiz
+sondh     1858  0.0  1.3 864568 51680 ?        Sl   14:06   0:00 /usr/lib/evolution/evolution-calendar-factory
+sondh     1862  0.0  1.2 970172 49008 ?        Sl   14:06   0:17 nm-applet
+sondh     1870  0.0  1.7 1078300 70304 ?       Sl   14:06   0:19 nautilus -n
+colord    1889  0.0  0.2 310632 11344 ?        Ssl  14:06   0:00 /usr/lib/colord/colord
+sondh     1890  0.0  0.0  22368  1096 ?        S    14:06   0:00 syndaemon -i 1.0 -t -K -R
+sondh     1894  0.0  0.5 431420 20544 ?        Sl   14:06   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+sondh     1898  0.0  2.3 1355728 91612 ?       SLl  14:06   0:04 /usr/bin/gnome-software --gapplication-service
+sondh     1905  0.0  0.5 579056 20724 ?        Sl   14:06   0:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+sondh     1930  0.0  0.2 371640  8428 ?        Sl   14:06   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+root      1942  0.0  0.7 508500 30640 ?        Ssl  14:06   0:00 /usr/lib/x86_64-linux-gnu/fwupd/fwupd
+root      1943  0.0  0.2 443424  9252 ?        Ssl  14:06   0:03 /usr/lib/udisks2/udisksd --no-debug
+sondh     1952  0.0  0.1 261052  5180 ?        Sl   14:06   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+sondh     1957  0.0  0.1 259060  4768 ?        Sl   14:06   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+sondh     1962  0.0  0.1 405136  7692 ?        Sl   14:06   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+sondh     1968  0.0  0.1 273384  5380 ?        Sl   14:06   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+sondh     1982  0.0  0.1 363036  7624 ?        Sl   14:06   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.4 /org/gtk/gvfs/exec_spaw/0
+sondh     1994  0.0  0.1 187736  5176 ?        Sl   14:06   0:00 /usr/lib/gvfs/gvfsd-metadata
+sondh     2002  0.0  1.1 817508 43440 ?        Sl   14:06   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1858x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1858/2
+sondh     2012  0.0  0.2 692096 11504 ?        Sl   14:06   0:00 /usr/lib/evolution/evolution-addressbook-factory
+sondh     2014  0.0  1.0 1063904 43296 ?       Sl   14:06   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1858x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1858/3
+sondh     2034  0.0  0.2 767600 10504 ?        Sl   14:06   0:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx2012x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/2012/2
+sondh     2069  0.0  0.3 586392 15452 ?        Sl   14:06   0:01 zeitgeist-datahub
+sondh     2076  0.0  0.0   4504   744 ?        S    14:06   0:00 /bin/sh -c /usr/lib/x86_64-linux-gnu/zeitgeist/zeitgeist-maybe-vacuum; /usr/bin/zeitgeist-daemon
+sondh     2080  0.0  0.2 421276  8344 ?        Sl   14:06   0:00 /usr/bin/zeitgeist-daemon
+sondh     2087  0.0  0.2 319432 10480 ?        Sl   14:06   0:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+sondh     2218  0.0  0.6 525656 24172 ?        Sl   14:07   0:00 update-notifier
+sondh     2488  0.0  0.1 442708  7540 ?        Sl   14:08   0:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+sondh     3228  0.0  0.2 715700  8160 ?        Sl   14:41   0:00 /usr/lib/gvfs/gvfsd-network --spawner :1.4 /org/gtk/gvfs/exec_spaw/2
+sondh     3255  0.0  0.1 363244  6204 ?        Sl   14:41   0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.4 /org/gtk/gvfs/exec_spaw/5
+root      3309  0.0  0.0  14248  2300 ?        Ss   14:42   0:00 /sbin/mount.ntfs /dev/sda3 /media/sondh/DATA -o rw,nodev,nosuid,uid=1000,gid=1000,uhelper=udisks2
+sondh     5838  0.0  0.6 492064 27380 ?        Sl   15:31   0:03 /usr/lib/x86_64-linux-gnu/notify-osd
+thingsb+ 11937  0.0  0.0  14216  1956 ?        Ss   15:40   0:00 /bin/bash /usr/share/thingsboard/bin/thingsboard.jar
+thingsb+ 11952  0.3  8.3 3463640 329948 ?      Sl   15:40   1:20 /usr/bin/java -Dsun.misc.URLClassPath.disableJarChecking=true -Dplatform=deb -Dinstall.data_dir=/usr/share/thingsboard/data -Xloggc:/var/log/thingsboard/gc.log -XX:+IgnoreUnrecognizedVMOptions -XX:+HeapDumpOnOutOfMemoryError -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+PrintHeapAtGC -XX:+PrintTenuringDistribution -XX:+PrintGCApplicationStoppedTime -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=10 -XX:GCLogFileSize=10M -XX:-UseBiasedLocking -XX:+UseTLAB -XX:+ResizeTLAB -XX:+PerfDisableSharedMem -XX:+UseCondCardMark -XX:CMSWaitDuration=10000 -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:+CMSParallelRemarkEnabled -XX:+CMSParallelInitialMarkEnabled -XX:+CMSEdenChunksRecordAlways -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -Xms256M -Xmx256M -jar /usr/share/thingsboard/bin/thingsboard.jar
+root     20324  0.0  0.0      0     0 ?        S    18:34   0:00 [irq/50-mei_me]
+root     20437  0.0  0.0  16128  3580 ?        S    18:34   0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-wlp6s0.pid -lf /var/lib/NetworkManager/dhclient-90b670f4-4936-4b4f-b2ca-b9cc3ba53ebd-wlp6s0.lease -cf /var/lib/NetworkManager/dhclient-wlp6s0.conf wlp6s0
+sondh    20617  5.0  6.4 1000692 253532 ?      SLl  18:35   8:58 /opt/google/chrome/chrome
+sondh    20623  0.0  0.0   8972   120 ?        S    18:35   0:00 cat
+sondh    20624  0.0  0.0   8972    92 ?        S    18:35   0:00 cat
+sondh    20627  0.0  1.1 450884 46060 ?        S    18:35   0:00 /opt/google/chrome/chrome --type=zygote
+sondh    20628  0.0  0.0  26416  3444 ?        S    18:35   0:00 /opt/google/chrome/nacl_helper
+sondh    20631  0.0  0.3 450884 15744 ?        S    18:35   0:00 /opt/google/chrome/chrome --type=zygote
+sondh    20652 14.6  4.7 659272 189400 ?       Sl   18:35  26:10 /opt/google/chrome/chrome --type=gpu-process --field-trial-handle=10106222115860063983,3622231483898382833,131072 --gpu-preferences=KAAAAAAAAAAgAAAgAAAAAAAAYAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA --shared-files
+sondh    20655  2.5  2.0 583020 82892 ?        SLl  18:35   4:37 /opt/google/chrome/chrome --type=utility --field-trial-handle=10106222115860063983,3622231483898382833,131072 --lang=en-US --service-sandbox-type=network --disable-webrtc-apm-in-audio-service --shared-files
+sondh    20664  0.0  0.3 477784 15732 ?        S    18:35   0:00 /opt/google/chrome/chrome --type=broker
+sondh    20687  0.3  2.8 15282688 112508 ?     Sl   18:35   0:36 /opt/google/chrome/chrome --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=10106222115860063983,3622231483898382833,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=4 --no-v8-untrusted-code-mitigations --shared-files
+sondh    20715  0.0  2.6 4809032 104920 ?      Sl   18:35   0:09 /opt/google/chrome/chrome --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=10106222115860063983,3622231483898382833,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --no-v8-untrusted-code-mitigations --shared-files
+sondh    20734  0.0  2.3 4812616 92860 ?       Sl   18:35   0:02 /opt/google/chrome/chrome --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=10106222115860063983,3622231483898382833,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=6 --no-v8-untrusted-code-mitigations --shared-files
+sondh    20740  0.0  2.1 4767052 86732 ?       Sl   18:35   0:00 /opt/google/chrome/chrome --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=10106222115860063983,3622231483898382833,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=7 --no-v8-untrusted-code-mitigations --shared-files
+sondh    20747  0.3  2.7 4794960 110456 ?      Sl   18:35   0:33 /opt/google/chrome/chrome --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=10106222115860063983,3622231483898382833,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=8 --no-v8-untrusted-code-mitigations --shared-files
+sondh    20753  0.1  3.6 4864136 142852 ?      Sl   18:35   0:12 /opt/google/chrome/chrome --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=10106222115860063983,3622231483898382833,131072 --lang=en-US --extension-process --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=9 --no-v8-untrusted-code-mitigations --shared-files
+sondh    20859  0.1  3.0 4799480 120068 ?      Sl   18:35   0:14 /opt/google/chrome/chrome --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=10106222115860063983,3622231483898382833,131072 --lang=en-US --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=13 --no-v8-untrusted-code-mitigations --shared-files
+sondh    20860  0.7  3.7 4859048 147232 ?      Sl   18:35   1:23 /opt/google/chrome/chrome --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=10106222115860063983,3622231483898382833,131072 --lang=en-US --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=12 --no-v8-untrusted-code-mitigations --shared-files
+sondh    20890  0.0  2.2 4764280 87740 ?       Sl   18:35   0:00 /opt/google/chrome/chrome --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=10106222115860063983,3622231483898382833,131072 --lang=en-US --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=19 --no-v8-untrusted-code-mitigations --shared-files
+sondh    20902  0.6  1.1 651216 43492 ?        Sl   18:35   1:06 /opt/google/chrome/chrome --type=utility --field-trial-handle=10106222115860063983,3622231483898382833,131072 --lang=en-US --service-sandbox-type=audio --disable-webrtc-apm-in-audio-service --shared-files
+sondh    23476  0.0  0.2 285072  8772 ?        Sl   20:04   0:03 /usr/lib/ibus-unikey/ibus-engine-unikey --ibus
+sondh    23926  0.0  0.9 659148 38720 ?        Sl   20:13   0:01 gedit /home/sondh/note/STM32.txt
+root     24476  0.0  0.0      0     0 ?        I    20:28   0:01 [kworker/2:2]
+root     24816  0.0  0.0      0     0 ?        I    20:42   0:00 [kworker/1:0]
+root     24956  0.0  0.0      0     0 ?        I    20:47   0:01 [kworker/u8:2]
+root     25172  0.0  0.0      0     0 ?        D    20:57   0:00 [kworker/u8:3]
+root     25238  0.0  0.0      0     0 ?        I    20:59   0:00 [kworker/3:0]
+root     25258  0.0  0.0      0     0 ?        I    21:00   0:00 [kworker/0:0]
+sondh    25437  3.8  3.9 4837760 155728 ?      Sl   21:03   1:08 /opt/google/chrome/chrome --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=10106222115860063983,3622231483898382833,131072 --lang=en-US --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=216 --no-v8-untrusted-code-mitigations --shared-files
+sondh    25448  0.1  2.5 4779324 102368 ?      Sl   21:03   0:02 /opt/google/chrome/chrome --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=10106222115860063983,3622231483898382833,131072 --lang=en-US --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=217 --no-v8-untrusted-code-mitigations --shared-files
+sondh    25730  0.4  0.9 663076 35736 ?        Sl   21:14   0:04 /usr/lib/gnome-terminal/gnome-terminal-server
+sondh    25738  0.0  0.1  24316  5700 pts/5    Ss   21:14   0:00 bash
+root     25771  0.0  0.0      0     0 ?        D    21:15   0:00 [kworker/u8:1]
+sondh    25881  0.1  2.6 4781000 103056 ?      Sl   21:19   0:01 /opt/google/chrome/chrome --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=10106222115860063983,3622231483898382833,131072 --lang=en-US --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=229 --no-v8-untrusted-code-mitigations --shared-files
+sondh    25882  0.1  2.5 4780684 101744 ?      Sl   21:19   0:01 /opt/google/chrome/chrome --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=10106222115860063983,3622231483898382833,131072 --lang=en-US --instant-process --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=230 --no-v8-untrusted-code-mitigations --shared-files
+root     26023  0.0  0.0      0     0 ?        I    21:23   0:00 [kworker/1:1]
+root     26024  0.0  0.0      0     0 ?        I    21:23   0:00 [kworker/0:2]
+sondh    26025  0.0  1.4 4748100 56064 ?       Sl   21:23   0:00 /opt/google/chrome/chrome --type=renderer --disable-webrtc-apm-in-audio-service --field-trial-handle=10106222115860063983,3622231483898382833,131072 --lang=en-US --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=235 --no-v8-untrusted-code-mitigations --shared-files
+root     26076  0.0  0.0      0     0 ?        I    21:25   0:00 [kworker/2:0]
+root     26122  0.0  0.0      0     0 ?        I    21:28   0:00 [kworker/3:1]
+root     26131  0.0  0.0      0     0 ?        I    21:28   0:00 [kworker/1:2]
+root     26133  0.0  0.0      0     0 ?        I    21:28   0:00 [kworker/0:1]
+root     26164  0.0  0.0      0     0 ?        I    21:30   0:00 [kworker/2:1]
+root     26178  0.0  0.0      0     0 ?        I    21:30   0:00 [kworker/u8:0]
+sondh    26208  0.0  0.0  38892  3584 pts/5    R+   21:33   0:00 ps aux

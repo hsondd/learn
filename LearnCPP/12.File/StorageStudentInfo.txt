@@ -1,0 +1,3 @@
+Trung 10
+Nam 5
+Bac 9

@@ -1,3 +1,0 @@
-/home/sondh/CodeC/CPP/18.CopyConstructor/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/sondh/CodeC/CPP/18.CopyConstructor/cmake-build-debug/CMakeFiles/18_CopyConstructor.dir
-/home/sondh/CodeC/CPP/18.CopyConstructor/cmake-build-debug/CMakeFiles/edit_cache.dir

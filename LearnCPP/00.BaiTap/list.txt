@@ -1,0 +1,19 @@
+1. //Dem so phan tu phan biet trong mang 1 chieu
+2. quick sort
+3. selection sort
+4. insertion sort
+5.Bubble sort
+6. binary search
+7. Thêm/ xóa phần tử trong mảng 1 chiều
+8. tim ucln
+9. kiem tra so doi xung
+10. chuyen thap phan sang nhi phaan
+11. KIem tra so chinh phuong
+12.Tinh toan voi 2 so lon
+13. Cai dat stack bang template
+14.Kiem tra so nguyen duong co toan chu so chan hoac le
+15. Liệt kê các hoán vị tổ hợp
+16. Dem so luong ky tu trong chuoi
+17. chuyen doi thoi gian
+18. Tim kiem 1 chuoi trong chuoi
+19. Dao nguoc 1 chuoi
