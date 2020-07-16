@@ -4,8 +4,8 @@
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = practice6.o practice1.o practice2.o practice3.o practice4.o practice5.o practice7.o practice8.o practice9.o practice10.o
-LINKOBJ  = practice6.o practice1.o practice2.o practice3.o practice4.o practice5.o practice7.o practice8.o practice9.o practice10.o
+OBJ      = practice6.o practice1.o practice2.o practice3.o practice4.o practice5.o practice7.o practice8.o practice10.o practice11.o practice12.o practice13.o practice14.o
+LINKOBJ  = practice6.o practice1.o practice2.o practice3.o practice4.o practice5.o practice7.o practice8.o practice10.o practice11.o practice12.o practice13.o practice14.o
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
@@ -48,8 +48,17 @@ practice7.o: practice7.cpp
 practice8.o: practice8.cpp
 	$(CPP) -c practice8.cpp -o practice8.o $(CXXFLAGS)
 
-practice9.o: practice9.cpp
-	$(CPP) -c practice9.cpp -o practice9.o $(CXXFLAGS)
-
 practice10.o: practice10.cpp
 	$(CPP) -c practice10.cpp -o practice10.o $(CXXFLAGS)
+
+practice11.o: practice11.cpp
+	$(CPP) -c practice11.cpp -o practice11.o $(CXXFLAGS)
+
+practice12.o: practice12.cpp
+	$(CPP) -c practice12.cpp -o practice12.o $(CXXFLAGS)
+
+practice13.o: practice13.cpp
+	$(CPP) -c practice13.cpp -o practice13.o $(CXXFLAGS)
+
+practice14.o: practice14.cpp
+	$(CPP) -c practice14.cpp -o practice14.o $(CXXFLAGS)

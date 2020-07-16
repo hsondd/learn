@@ -9,7 +9,7 @@ void func(int **ptr)
     *ptr = &global_var;
 }
 
-int main()
+int main11()
 {
     int var = 50;
     int *ptr1 = &var;

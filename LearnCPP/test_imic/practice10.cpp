@@ -35,7 +35,7 @@ class derived : public base
         }
 };
 
-int main()
+int main10()
 {
     // derived *d = new derived();
     base *b = new derived();
