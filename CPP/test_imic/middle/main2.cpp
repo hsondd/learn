@@ -4,7 +4,7 @@ using namespace std;
 
 // C++ program to find maximum between three numbers using nested if//
 
-int main()
+int main2()
 {
 	int num1, num2, num3, max;
 	
