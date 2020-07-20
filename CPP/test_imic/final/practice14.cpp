@@ -12,7 +12,7 @@ void showVector(vector <int> v)
     cout << endl;
 }
 
-int main(int argc, char **argv)
+int main14(int argc, char **argv)
 {
     vector<int> v, vector1, vector2;
 

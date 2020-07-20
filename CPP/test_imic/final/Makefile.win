@@ -1,11 +1,11 @@
 # Project: test_lg
 # Makefile created by Dev-C++ 5.11
 
-CPP      = g++.exe
-CC       = gcc.exe
+CPP      = g++.exe -std=c++11
+CC       = gcc.exe -std =c++11
 WINDRES  = windres.exe
-OBJ      = practice6.o practice1.o practice2.o practice3.o practice4.o practice5.o practice7.o practice8.o practice10.o practice11.o practice12.o practice13.o practice14.o
-LINKOBJ  = practice6.o practice1.o practice2.o practice3.o practice4.o practice5.o practice7.o practice8.o practice10.o practice11.o practice12.o practice13.o practice14.o
+OBJ      = practice6.o practice1.o practice2.o practice3.o practice4.o practice5.o practice7.o practice8.o practice10.o practice11.o practice12.o practice13.o practice14.o main15.o main16.o main17.o main18.o
+LINKOBJ  = practice6.o practice1.o practice2.o practice3.o practice4.o practice5.o practice7.o practice8.o practice10.o practice11.o practice12.o practice13.o practice14.o main15.o main16.o main17.o main18.o
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
@@ -62,3 +62,15 @@ practice13.o: practice13.cpp
 
 practice14.o: practice14.cpp
 	$(CPP) -c practice14.cpp -o practice14.o $(CXXFLAGS)
+
+main15.o: main15.cpp
+	$(CPP) -c main15.cpp -o main15.o $(CXXFLAGS)
+
+main16.o: main16.cpp
+	$(CPP) -c main16.cpp -o main16.o $(CXXFLAGS)
+
+main17.o: main17.cpp
+	$(CPP) -c main17.cpp -o main17.o $(CXXFLAGS)
+
+main18.o: main18.cpp
+	$(CPP) -c main18.cpp -o main18.o $(CXXFLAGS)
