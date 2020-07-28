@@ -20,3 +20,5 @@ int main()
     const char *bar = "bar";
     f(bar);
 }
+
+// 22

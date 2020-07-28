@@ -10,3 +10,5 @@ int main()
     cout << "n = " << n << " k = " << k << endl;
 
 }
+
+// n = 6 k = 5

@@ -22,3 +22,5 @@ int main()
 {
     cout << foobar::x;
 }
+
+//11

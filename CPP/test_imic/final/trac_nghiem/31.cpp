@@ -1,13 +1,8 @@
-#include <iostream>
+char ch;
+char title[] = "Titanic";
+ch = title[1];
+title[3] = ch;
+cout << title << endl;
+cout << ch << endl;
 
-using namespace std;
-
-int main()
-{
-    enum color_type {red, orange, yellow, green, blue, violet};
-    color_type shirt, pants;
-    shirt = red;
-    pants = blue;
-    cout << shirt << " " << pants << endl;
-    return 0;
-}
+// Titinic i

@@ -8,3 +8,4 @@ int main()
     cout << "n = " << n << endl;
     return 0;
 }
+//  n = 3
