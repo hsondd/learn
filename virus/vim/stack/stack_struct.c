@@ -22,7 +22,7 @@ node* createStack(uint32_t capacity)
 
 int isFull(node* stack)
 {
-    return stack->top = stack->capacity-1;
+    return stack->top == stack->capacity-1;
 }
 
 int isEmpty(node* stack)
