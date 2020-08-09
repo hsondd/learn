@@ -29,7 +29,7 @@ class Gun : public Weapon
         }
 };
 
-int main08()
+int main()
 {
     Weapon *w = new Weapon;
     Bomb *b = new Bomb;
