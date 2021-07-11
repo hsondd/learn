@@ -3,6 +3,9 @@
         "fstream": "cpp",
         "random": "cpp",
         "iostream": "cpp",
-        "ratio": "cpp"
+        "ratio": "cpp",
+        "functional": "cpp",
+        "future": "cpp",
+        "istream": "cpp"
     }
 }
